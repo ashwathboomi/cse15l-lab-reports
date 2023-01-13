@@ -18,8 +18,8 @@ You should be greeted with a home page similar to this:
 
 ![image](Picture2.jpg)
 
-## Coonnecting Remotely
-If your are using a Windows operating system, use this [link](https://gitforwindows.org/) to download git.
+## Connecting Remotely
+If you are using a Windows operating system, use this [link](https://gitforwindows.org/) to download git.
 
 Open the terminal and enter the following command to connect remotely:
 
