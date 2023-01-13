@@ -5,7 +5,13 @@ Visit this [link](https://sdacs.ucsd.edu/~icc/index.php) and enter the appropria
 
 Under the additional accounts section, you should be able to see your account username. It should look something like this:
 
-[image](picture1.jpg)
+![image](picture1.jpg)
+
+From there, click on the username and follow the instructions on how to chagge your password, gaining access to your account
+
+
+
+
 
 
 
