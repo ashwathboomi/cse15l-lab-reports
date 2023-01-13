@@ -21,11 +21,22 @@ You should be greeted with a home page similar to this:
 ## Coonnecting Remotely
 If your are using a Windows operating system, use this [link](https://gitforwindows.org/) to download git.
 
-Open the terminal and type the following command to connect remotely:
+Open the terminal and enter the following command to connect remotely:
 
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
 
-You will then be required to 
+You will then receive a prompt asking for `(yes/no/fingerprint)`. Enter `yes`. You should then see the following picture:
+
+![image](Picture3.png)
+
+You should now be good to go to enter any terminal commands learned in class to explore the directory. 
+
+For Example:
+
+![image](picture.jpg)
+
+Congratulations! You have connected to the remote server.
+
 
 
 
