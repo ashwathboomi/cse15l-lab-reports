@@ -56,6 +56,20 @@ Again, to check that we are indeed back in the home directory, we can use `pwd` 
 
 ![image](15l5.jpg)
 
+As you continue to use the remote server, you will grow more familar with other commands as well
+
+The `open <filename>` command will open the desire file in the current working directory
+
+The `cp <filename> <newfilename>` command will create a copy of the first file with the name of the second argument
+
+The `mv <filename> <path>` command will move the file to the path declared by the second argument
+
+The `mkdir <name>` command will create directory/folder with the desired name in the current working directory.
+
+![image](15l4.jpg)
+
+
+
 Congratulations! You have connected to the remote server, and now should be able to use terminal commands to navigate around directories.
 
 
