@@ -18,7 +18,7 @@ You should be greeted with a home page similar to this:
 
 ![image](Picture2.jpg)
 
-## Connecting Remotely
+## Connecting Remotely:
 If you are using a Windows operating system, use this [link](https://gitforwindows.org/) to download git.
 
 Open the terminal and enter the following command to connect remotely:
@@ -29,13 +29,34 @@ You will then receive a prompt asking for `(yes/no/fingerprint)`. Enter `yes`. Y
 
 ![image](Picture3.png)
 
-You should now be good to go to enter any terminal commands learned in class to explore the directory. 
+You should now be good to go to enter any terminal commands learned in class to explore the directory.
 
 For Example:
 
 ![image](picture.jpg)
 
-Congratulations! You have connected to the remote server.
+## Trying Some Commands:
+Entering the `pwd` command will print the current working directory. The result should look something like this:
+
+![image](15l1.jpg)
+
+Entering the `ls` command will list out all the directories within the current working directory
+
+![image](15l2.jpg)
+
+We can see that the perl5 directory is listed under the current working directory. 
+
+Let's visit that directory by using the `cd perl5` command and then using `pwd` to check where we are. 
+
+![image](15l3.jpg)
+
+To return back to the home directory use the command `cd ..`.
+
+Again, to check that we are indeed back in the home directory, we can use `pwd` to see the working directory
+
+![image](15l5.jpg)
+
+Congratulations! You have connected to the remote server, and now should be able to use terminal commands to navigate around directories.
 
 
 
