@@ -58,13 +58,13 @@ Again, to check that we are indeed back in the home directory, we can use `pwd` 
 
 As you continue to use the remote server, you will grow more familar with other commands as well
 
-The `open <filename>` command will open the desire file in the current working directory
+The `open <filename>` command will open the desired file in the current working directory
 
 The `cp <filename> <newfilename>` command will create a copy of the first file with the name of the second argument
 
 The `mv <filename> <path>` command will move the file to the path declared by the second argument
 
-The `mkdir <name>` command will create directory/folder with the desired name in the current working directory.
+The `mkdir <name>` command will create a directory/folder with the desired name in the current working directory.
 
 ![image](15l4.jpg)
 
