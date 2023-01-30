@@ -1,6 +1,6 @@
-#CSE 15L Lab Report 2: Servers and Bugs
+# CSE 15L Lab Report 2: Servers and Bugs
 
-##Part 1:
+## Part 1:
 
 StringServer.java Code:
 
@@ -71,7 +71,7 @@ The String `opt` continues to get updated with new Queries entered. This value i
 
 Inputing any time of data type will return a String casted version of that data type in the reference `opt`
 
-##Part 2:
+## Part 2:
 
 Error in ArrayExamples in java found using JUnit testing:
 
@@ -143,7 +143,7 @@ After:
   ```
   The bug was the fact that reverseInPlace() does properly overwrite all the values as there is no memory allocation for the values that were already overwritten.
   
-  ##Part 3:
+  ## Part 3:
   
   Something I learned these past two weeks was how to create a local server and implement query methods in java
   
