@@ -9,8 +9,6 @@ import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
     String opt = new String();
 
     public String handleRequest(URI url) {
@@ -142,6 +140,7 @@ After:
   }
   ```
   The bug was the fact that reverseInPlace() does properly overwrite all the values as there is no memory allocation for the values that were already overwritten.
+  
   
   ## Part 3:
   
