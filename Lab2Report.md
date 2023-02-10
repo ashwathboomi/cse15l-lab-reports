@@ -130,8 +130,8 @@ After:
   
   If the input was `int[] input = new int[]{ 1, 2, 3 }`, then the output would be `{ 3, 2, 3 }` which is different from the `{ 3, 2, 1 }` we expect.
   
-  This is becauase the original data values in the first half of the array were never stored in temporary variables before being overwritten, resulting
-  in the array being palindromic and only containig values from the the second half of the array.
+  This is because the original data values in the first half of the array were never stored in temporary variables before being overwritten, resulting
+  in the array being palindromic and only containing values from the the second half of the array.
   
   To fix this, we only iterated through the first half of the array and stored each value in a temporary variable before overwriting. Through each iteration,
   the array will now overwrite both the first and last elements of the array that have not already been overwritten.
