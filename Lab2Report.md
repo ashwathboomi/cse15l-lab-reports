@@ -136,7 +136,7 @@ After:
   To fix this, we only iterated through the first half of the array and stored each value in a temporary variable before overwriting. Through each iteration,
   the array will now overwrite both the first and last elements of the array that have not already been overwritten.
   
-  # Part 3:
+  Part 3:
   
   Something I learned these past two weeks was how to create a local server and implement query methods in java
   
