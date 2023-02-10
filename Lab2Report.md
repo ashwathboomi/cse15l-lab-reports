@@ -126,21 +126,21 @@ After:
   }
 
   ```
-  The bug was the fact that reverseInPlace() does properly overwrite all the values as there is no memory allocation for the values that were already overwritten.
+The bug was the fact that reverseInPlace() does properly overwrite all the values as there is no memory allocation for the values that were already overwritten.
+ 
+If the input was `int[] input = new int[]{ 1, 2, 3 }`, then the output would be `{ 3, 2, 3 }` which is different from the `{ 3, 2, 1 }` we expect.
   
-  If the input was `int[] input = new int[]{ 1, 2, 3 }`, then the output would be `{ 3, 2, 3 }` which is different from the `{ 3, 2, 1 }` we expect.
+This is because the original data values in the first half of the array were never stored in temporary variables before being overwritten, resulting
+in the array being palindromic and only containing values from the the second half of the array.
   
-  This is because the original data values in the first half of the array were never stored in temporary variables before being overwritten, resulting
-  in the array being palindromic and only containing values from the the second half of the array.
+To fix this, we only iterated through the first half of the array and stored each value in a temporary variable before overwriting. Through each iteration,
+the array will now overwrite both the first and last elements of the array that have not already been overwritten.
+
+## Part 3:
   
-  To fix this, we only iterated through the first half of the array and stored each value in a temporary variable before overwriting. Through each iteration,
-  the array will now overwrite both the first and last elements of the array that have not already been overwritten.
+Something I learned these past two weeks was how to create a local server and implement query methods in java
   
-  Part 3:
-  
-  Something I learned these past two weeks was how to create a local server and implement query methods in java
-  
-  I also was able to learn the certain keywords used when debugging programs, making it easier for me to communicate any problems.
+I also was able to learn the certain keywords used when debugging programs, making it easier for me to communicate any problems.
 
 
 
